@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-    <link rel="preload" as="image" href="image/desctop cover3.png" imagesrcset="image/desctop cover3.png" imagesizes="100vw">
+    <link rel="preload" as="image" href="image/desctop cover3.png" imagesrcset="image/desctop cover3.png"
+        imagesizes="100vw">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         /* Reset and Base Styles */
         * {
@@ -44,7 +48,11 @@
             background-color: #fff;
         }
 
-        h1, h2, h3, h4, h5 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
             font-family: 'Playfair Display', serif;
             font-weight: 700;
             line-height: 1.3;
@@ -120,7 +128,7 @@
 
         .btn:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
 
         .section-title {
@@ -153,7 +161,7 @@
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             transition: all 0.4s ease;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
         }
 
         header.scrolled {
@@ -233,8 +241,8 @@
             align-items: center;
             position: relative;
             overflow: hidden;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-            url('image/desctop cover3.png') no-repeat center center;            
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('image/desctop cover3.png') no-repeat center center;
             background-size: cover;
             background-attachment: scroll;
         }
@@ -259,7 +267,7 @@
         .hero-content p {
             font-size: 1.3rem;
             margin-bottom: 2.5rem;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             opacity: 1;
             animation: none;
         }
@@ -350,7 +358,7 @@
             padding: 20px;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             transition: none;
         }
 
@@ -374,7 +382,7 @@
             position: relative;
             border-radius: 20px;
             overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
         }
 
         .about-image img {
@@ -428,12 +436,12 @@
             transition: transform 0.28s ease, box-shadow 0.28s ease;
             position: relative;
             overflow: hidden;
-            border: 1px solid rgba(0,0,0,0.04);
+            border: 1px solid rgba(0, 0, 0, 0.04);
         }
 
         .offer-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 30px 60px rgba(12,20,30,0.12);
+            box-shadow: 0 30px 60px rgba(12, 20, 30, 0.12);
         }
 
         .offer-card.featured {
@@ -455,23 +463,23 @@
             position: absolute;
             top: 14px;
             right: 14px;
-            background: rgba(255,255,255,0.95);
+            background: rgba(255, 255, 255, 0.95);
             color: var(--primary-dark);
             padding: 8px 14px;
             border-radius: 50px;
             font-weight: 700;
-            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
             font-size: 0.85rem;
             z-index: 2;
         }
 
         .offer-card.featured .offer-badge {
-            background: rgba(255,255,255,0.95);
+            background: rgba(255, 255, 255, 0.95);
             color: #333;
         }
 
         .offer-header {
-            background: linear-gradient(90deg, rgba(231,76,60,1) 0%, rgba(243,156,18,1) 100%);
+            background: linear-gradient(90deg, rgba(231, 76, 60, 1) 0%, rgba(243, 156, 18, 1) 100%);
             color: white;
             padding: 30px 25px;
             text-align: center;
@@ -507,7 +515,7 @@
 
         .old-price {
             font-size: 1.1rem;
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: line-through;
         }
 
@@ -568,10 +576,13 @@
         }
 
         @keyframes videoFeaturePulse {
-            0%, 100% {
+
+            0%,
+            100% {
                 box-shadow: 0 4px 20px rgba(102, 126, 234, 0.2);
                 border-color: rgba(102, 126, 234, 0.4);
             }
+
             50% {
                 box-shadow: 0 6px 30px rgba(102, 126, 234, 0.35);
                 border-color: rgba(102, 126, 234, 0.6);
@@ -597,8 +608,15 @@
         }
 
         @keyframes giftBounce {
-            0%, 100% { transform: translateY(0) scale(1); }
-            50% { transform: translateY(-5px) scale(1.1); }
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+
+            50% {
+                transform: translateY(-5px) scale(1.1);
+            }
         }
 
         .offer-features li[data-feature="video"] i {
@@ -615,7 +633,7 @@
 
         .offer-savings {
             display: inline-block;
-            background: linear-gradient(90deg,#ff6b6b,#ff9a6b);
+            background: linear-gradient(90deg, #ff6b6b, #ff9a6b);
             color: white;
             padding: 8px 18px;
             border-radius: 999px;
@@ -640,7 +658,7 @@
 
         .offer-btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(231,76,60,0.18);
+            box-shadow: 0 12px 30px rgba(231, 76, 60, 0.18);
         }
 
         .offer-card.featured .offer-btn {
@@ -658,7 +676,7 @@
             border-radius: 15px;
             padding: 40px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             margin-top: 40px;
         }
 
@@ -754,7 +772,7 @@
             height: 700px;
             position: relative;
             transform-origin: top left;
-            box-shadow: 0 12px 40px rgba(10,20,30,0.08);
+            box-shadow: 0 12px 40px rgba(10, 20, 30, 0.08);
             border-radius: 14px;
             overflow: hidden;
             background: #fff;
@@ -765,14 +783,14 @@
             position: absolute;
             overflow: hidden;
             border-radius: 12px;
-            box-shadow: 0 6px 18px rgba(20,30,40,0.06);
+            box-shadow: 0 6px 18px rgba(20, 30, 40, 0.06);
             cursor: pointer;
             transition: none;
         }
 
         .gallery-item:hover {
             transform: none;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
             z-index: 10;
         }
 
@@ -789,16 +807,75 @@
         }
 
         /* Gallery item positions (left, top, width, height) in percentages */
-        .g1 { left: 3.5%; top: 4%; width: 18%; height: 20%; }
-        .g2 { left: 24%; top: 4%; width: 12%; height: 20%; }
-        .g3 { left: 40%; top: 4%; width: 55%; height: 62%; }
-        .g4 { left: 3.5%; top: 30%; width: 36%; height: 34%; }
-        .g5 { left: 46%; top: 68%; width: 18%; height: 18%; }
-        .g6 { left: 66%; top: 68%; width: 12%; height: 18%; }
-        .g7 { left: 3.5%; top: 68%; width: 16%; height: 18%; }
-        .g8 { left: 21%; top: 68%; width: 12%; height: 18%; }
-        .g9 { left: 34%; top: 68%; width: 10%; height: 18%; }
-        .g10 { left: 46%; top: 44%; width: 26%; height: 22%; }
+        .g1 {
+            left: 3.5%;
+            top: 4%;
+            width: 18%;
+            height: 20%;
+        }
+
+        .g2 {
+            left: 24%;
+            top: 4%;
+            width: 12%;
+            height: 20%;
+        }
+
+        .g3 {
+            left: 40%;
+            top: 4%;
+            width: 55%;
+            height: 62%;
+        }
+
+        .g4 {
+            left: 3.5%;
+            top: 30%;
+            width: 36%;
+            height: 34%;
+        }
+
+        .g5 {
+            left: 46%;
+            top: 68%;
+            width: 18%;
+            height: 18%;
+        }
+
+        .g6 {
+            left: 66%;
+            top: 68%;
+            width: 12%;
+            height: 18%;
+        }
+
+        .g7 {
+            left: 3.5%;
+            top: 68%;
+            width: 16%;
+            height: 18%;
+        }
+
+        .g8 {
+            left: 21%;
+            top: 68%;
+            width: 12%;
+            height: 18%;
+        }
+
+        .g9 {
+            left: 34%;
+            top: 68%;
+            width: 10%;
+            height: 18%;
+        }
+
+        .g10 {
+            left: 46%;
+            top: 44%;
+            width: 26%;
+            height: 22%;
+        }
 
         /* Gallery overlay and caption */
         .gallery-overlay {
@@ -807,7 +884,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
             display: flex;
             align-items: flex-end;
             padding: 15px;
@@ -836,7 +913,7 @@
 
         .gallery-caption p {
             font-size: 0.8rem;
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             margin-bottom: 0;
         }
 
@@ -848,7 +925,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.95);
+            background: rgba(0, 0, 0, 0.95);
             z-index: 2000;
             justify-content: center;
             align-items: center;
@@ -882,7 +959,7 @@
 
         .lightbox-caption {
             width: 100%;
-            background: rgba(0,0,0,0.7);
+            background: rgba(0, 0, 0, 0.7);
             color: white;
             padding: 15px;
             border-bottom-left-radius: 10px;
@@ -897,7 +974,7 @@
             color: white;
             font-size: 2.5rem;
             cursor: pointer;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             border: none;
             border-radius: 50%;
             width: 50px;
@@ -925,8 +1002,9 @@
             z-index: 2001;
         }
 
-        .lightbox-prev, .lightbox-next {
-            background: rgba(255,255,255,0.2);
+        .lightbox-prev,
+        .lightbox-next {
+            background: rgba(255, 255, 255, 0.2);
             color: white;
             border: none;
             width: 50px;
@@ -940,7 +1018,8 @@
             justify-content: center;
         }
 
-        .lightbox-prev:hover, .lightbox-next:hover {
+        .lightbox-prev:hover,
+        .lightbox-next:hover {
             background: var(--primary);
             transform: scale(1.1);
         }
@@ -961,7 +1040,7 @@
             padding: 40px 30px;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: none;
             position: relative;
             overflow: hidden;
@@ -1058,10 +1137,11 @@
             cursor: pointer;
             transition: all 0.3s ease;
             font-weight: 500;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
         }
 
-        .filter-btn.active, .filter-btn:hover {
+        .filter-btn.active,
+        .filter-btn:hover {
             background: var(--gradient);
             color: white;
         }
@@ -1078,7 +1158,7 @@
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: none;
             cursor: pointer;
             position: relative;
@@ -1144,7 +1224,7 @@
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: none;
         }
 
@@ -1207,7 +1287,7 @@
             background: white;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: none;
             cursor: pointer;
             position: relative;
@@ -1275,21 +1355,22 @@
         .testimonial-slider {
             display: flex;
             transition: transform 0.5s ease;
-            justify-content: center; /* center slides when fewer visible */
+            justify-content: center;
+            /* center slides when fewer visible */
         }
 
-           .testimonial {
-    background: #ffffff;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-    border: 1px solid rgba(0,0,0,0.06);
-    margin: 0 15px;
-    width: 80%;
-    text-align: center;
-    flex-shrink: 0;
-    line-height: 1.6;
-}
+        .testimonial {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            margin: 0 15px;
+            width: 80%;
+            text-align: center;
+            flex-shrink: 0;
+            line-height: 1.6;
+        }
 
         .testimonial-text {
             font-size: 1.1rem;
@@ -1325,7 +1406,9 @@
             gap: 6px;
         }
 
-        .client-avatar { display: none; }
+        .client-avatar {
+            display: none;
+        }
 
         .client-avatar img {
             width: 100%;
@@ -1376,8 +1459,9 @@
             pointer-events: none;
         }
 
-        .testimonial-prev, .testimonial-next {
-            background: rgba(255,255,255,0.8);
+        .testimonial-prev,
+        .testimonial-next {
+            background: rgba(255, 255, 255, 0.8);
             color: var(--primary);
             border: none;
             width: 50px;
@@ -1390,10 +1474,11 @@
             align-items: center;
             justify-content: center;
             pointer-events: all;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
-        .testimonial-prev:hover, .testimonial-next:hover {
+        .testimonial-prev:hover,
+        .testimonial-next:hover {
             background: var(--primary);
             color: white;
             transform: scale(1.1);
@@ -1415,7 +1500,7 @@
             background: white;
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
         }
 
         .form-group {
@@ -1495,7 +1580,7 @@
         }
 
         .footer-about p {
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             margin-bottom: 25px;
         }
 
@@ -1510,7 +1595,7 @@
             justify-content: center;
             width: 40px;
             height: 40px;
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             color: white;
             border-radius: 50%;
             transition: all 0.3s ease;
@@ -1548,7 +1633,7 @@
         }
 
         .footer-links a {
-            color: rgba(255,255,255,0.7);
+            color: rgba(255, 255, 255, 0.7);
             text-decoration: none;
             transition: color 0.3s ease;
         }
@@ -1561,9 +1646,9 @@
         .copyright {
             text-align: center;
             padding-top: 30px;
-            border-top: 1px solid rgba(255,255,255,0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
             font-size: 0.9rem;
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.5);
         }
 
         /* Animations */
@@ -1572,6 +1657,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -1586,37 +1672,38 @@
         }
 
         @media (max-width: 992px) {
+
             .about-content,
             .contact-content {
                 grid-template-columns: 1fr;
                 gap: 50px;
             }
-            
+
             .about-text h2 {
                 text-align: center;
             }
-            
+
             .about-text h2::after {
                 left: 50%;
                 transform: translateX(-50%);
             }
-            
+
             .hero-content h1 {
                 font-size: 3.5rem;
             }
-            
+
             h2 {
                 font-size: 2.5rem;
             }
-            
+
             .vlog-card.expanded {
                 max-width: 95%;
             }
-            
+
             .gallery-collage {
                 height: 500px;
             }
-            
+
             .testimonial {
                 min-width: calc(100% - 20px);
                 margin: 0 10px;
@@ -1627,7 +1714,7 @@
             .navbar {
                 padding: 15px 0;
             }
-            
+
             .nav-links {
                 position: fixed;
                 top: 80px;
@@ -1640,84 +1727,92 @@
                 justify-content: flex-start;
                 padding-top: 50px;
                 transition: left 0.4s ease;
-                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             }
-            
+
             .nav-links.active {
                 left: 0;
             }
-            
+
             .nav-links li {
                 margin: 20px 0;
             }
-            
+
             .hamburger {
                 display: block;
             }
-            
+
             .hero-content h1 {
                 font-size: 2.8rem;
             }
-            
+
             .hero-content p {
                 font-size: 1.1rem;
             }
-            
+
             section {
                 padding: 80px 0;
             }
-            
+
             .portfolio-grid,
             .vlogs-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .vlog-card.expanded {
                 grid-column: 1;
             }
-            
+
             .gallery-collage {
                 height: 400px;
             }
 
-            
-    /* Coll Image Section Common */
-#collimage-section {
-    position: relative;
-    padding: 0;
-}
 
-.collimage {
-    width: 100%;
-    text-align: center;
-}
+            /* Coll Image Section Common */
+            #collimage-section {
+                position: relative;
+                padding: 0;
+            }
 
-.collimage img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 0;
-    width: 100%;   /* always scale with width */
-    height: auto;  /* default desktop: keep full image */
-}
+            .collimage {
+                width: 100%;
+                text-align: center;
+            }
 
-/* ----- Desktop View (769px+) ----- */
-@media screen and (min-width: 769px) {
-    .collimage img {
-        width: auto;          /* keep original width */
-        max-width: 100%;      /* but not overflow */
-        height: auto;         /* keep proportions */
-        object-fit: contain;  /* full image visible */
-    }
-}
+            .collimage img {
+                display: block;
+                margin: 0 auto;
+                border-radius: 0;
+                width: 100%;
+                /* always scale with width */
+                height: auto;
+                /* default desktop: keep full image */
+            }
 
-/* ----- Mobile View (768px-) ----- */
-@media screen and (max-width: 768px) {
-    .collimage img {
-        width: 100%;
-        height: 200px;        /* limit height */
-        object-fit: cover;    /* fill + crop */
-    }
-}
+            /* ----- Desktop View (769px+) ----- */
+            @media screen and (min-width: 769px) {
+                .collimage img {
+                    width: auto;
+                    /* keep original width */
+                    max-width: 100%;
+                    /* but not overflow */
+                    height: auto;
+                    /* keep proportions */
+                    object-fit: contain;
+                    /* full image visible */
+                }
+            }
+
+            /* ----- Mobile View (768px-) ----- */
+            @media screen and (max-width: 768px) {
+                .collimage img {
+                    width: 100%;
+                    height: 200px;
+                    /* limit height */
+                    object-fit: cover;
+                    /* fill + crop */
+                }
+            }
 
 
 
@@ -1726,7 +1821,7 @@
 
 
 
-            
+
             /* Mobile-specific lightbox styles */
             .lightbox-close {
                 top: 10px;
@@ -1735,58 +1830,60 @@
                 height: 40px;
                 font-size: 1.8rem;
             }
-            
+
             .lightbox-nav {
                 padding: 0 10px;
             }
-            
-            .lightbox-prev, .lightbox-next {
+
+            .lightbox-prev,
+            .lightbox-next {
                 width: 40px;
                 height: 40px;
                 font-size: 1.2rem;
             }
-            
+
             .lightbox-caption {
                 padding: 10px;
             }
-            
+
             .video-lightbox-content iframe {
                 height: 300px;
             }
-            
+
             .video-lightbox-close {
                 top: -30px;
                 width: 40px;
                 height: 40px;
                 font-size: 1.8rem;
             }
-            
+
             /* Testimonials mobile styles */
             .testimonial {
                 padding: 30px 20px;
                 margin: 0 10px;
                 min-width: calc(100% - 20px);
             }
-            
+
             .testimonial-text {
                 font-size: 1rem;
             }
-            
+
             .testimonial-nav-arrows {
                 padding: 0 10px;
             }
-            
-            .testimonial-prev, .testimonial-next {
+
+            .testimonial-prev,
+            .testimonial-next {
                 width: 40px;
                 height: 40px;
                 font-size: 1.2rem;
             }
-            
+
             .client-info {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .client-avatar {
                 margin-right: 0;
                 margin-bottom: 10px;
@@ -1797,94 +1894,94 @@
             .hero-content h1 {
                 font-size: 2.2rem;
             }
-            
+
             .hero-btns .btn {
                 display: block;
                 margin: 10px auto;
                 width: 80%;
                 max-width: 250px;
             }
-            
+
             .about-stats {
                 grid-template-columns: 1fr;
             }
-            
+
             .services-grid,
             .team-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .filter-btn {
                 padding: 8px 15px;
                 font-size: 0.9rem;
             }
-            
+
             .contact-form {
                 padding: 30px 20px;
             }
-            
+
             .hero-social a {
                 width: 45px;
                 height: 45px;
                 font-size: 1.2rem;
             }
-            
+
             .gallery-collage {
                 height: 300px;
             }
-            
+
             /* Mobile-specific lightbox styles */
             .lightbox-content {
                 max-width: 98%;
                 max-height: 98%;
             }
-            
+
             .lightbox-content img {
                 max-height: 70vh;
             }
-            
+
             .video-lightbox-content iframe {
                 height: 250px;
             }
-            
+
             /* Testimonials mobile styles */
             .testimonial {
                 padding: 25px 15px;
             }
-            
+
             .testimonial-text {
                 font-size: 0.95rem;
             }
-            
+
             .testimonial-text::before,
             .testimonial-text::after {
                 font-size: 2rem;
             }
-            
+
             .testimonial-text::before {
                 top: -10px;
                 left: -5px;
             }
-            
+
             .testimonial-text::after {
                 bottom: -30px;
                 right: -5px;
             }
-            
+
             .testimonial-nav-arrows {
                 display: none;
             }
-            
+
             .testimonial-nav {
                 margin-top: 20px;
             }
 
-            
+
 
         }
-
     </style>
 </head>
+
 <body>
     <!-- Header & Navigation -->
     <header>
@@ -1914,17 +2011,22 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Capturing Life's Most Precious Moments</h1>
-                <p>Professional photography, videography, and music production services that transform your vision into timeless creations.</p>
+                <p>Professional photography, videography, and music production services that transform your vision into
+                    timeless creations.</p>
                 <div class="hero-btns">
                     <a href="#portfolio" class="btn">View Our Work</a>
                     <a href="#contact" class="btn btn-outline">Get In Touch</a>
                 </div>
                 <div class="hero-social">
-                    <a href="https://www.facebook.com/share/1JTgTEQbUN/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/viewroplus?igsh=cXlmeWowM3U2eHZr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1JTgTEQbUN/" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/viewroplus?igsh=cXlmeWowM3U2eHZr" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
                     <a href="https://www.youtube.com/@viewroplus" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.tiktok.com/@viewroplus?_t=ZS-90MVJU8vKQp&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=helloviewro@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.tiktok.com/@viewroplus?_t=ZS-90MVJU8vKQp&_r=1" target="_blank"><i
+                            class="fab fa-tiktok"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=helloviewro@gmail.com" target="_blank"><i
+                            class="fas fa-envelope"></i></a>
                     <a href="https://wa.me/94766096453" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
@@ -1936,15 +2038,20 @@
         <div class="container">
             <div class="section-title">
                 <h2>Our Story</h2>
-                <p>Blending artistic vision with technical excellence, VIEWRO crafts experiences that are not just seen or heard...But truly felt.</p>
+                <p>Blending artistic vision with technical excellence, VIEWRO crafts experiences that are not just seen
+                    or heard...But truly felt.</p>
                 <p>🌟 VIEWRO – Where stories are born, and emotions live forever. 🌟</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
                     <h2>Creating Visual & Audio Stories Since 2023</h2>
-                    <p>At VIEWRO, we believe that every moment tells a story. Our journey began with a simple camera and a big dream - to capture the beauty, emotion, and authenticity of life's most precious moments.</p>
-                    <p>Today, we're a team of dedicated professionals specializing in photography, videography, and music production services for weddings, corporate events, commercial projects, and personal milestones.</p>
-                    
+                    <p>At VIEWRO, we believe that every moment tells a story. Our journey began with a simple camera and
+                        a big dream - to capture the beauty, emotion, and authenticity of life's most precious moments.
+                    </p>
+                    <p>Today, we're a team of dedicated professionals specializing in photography, videography, and
+                        music production services for weddings, corporate events, commercial projects, and personal
+                        milestones.</p>
+
                     <div class="about-stats">
                         <div class="stat-item">
                             <span class="stat-number">38+</span>
@@ -1965,7 +2072,7 @@
                     </div>
                 </div>
                 <div class="about-image">
-                   <img src="image/TEAMCOVER.jpg" alt="VIEWRO Team">
+                    <img src="image/TEAMCOVER.jpg" alt="VIEWRO Team">
 
                     <div class="image-overlay"></div>
                 </div>
@@ -1973,95 +2080,32 @@
         </div>
     </section>
 
-    <!-- Special Offers Section - ENHANCED -->
-    <section id="offers">
+    <!-- Newly Added Photos Section -->
+    <section id="offers" style="background: var(--light); padding: 80px 0;">
         <div class="container">
-            <div class="section-title">
-                <h2>Special Offers & Deals</h2>
-                <p>🎓 Graduation Photography Packages — choose your package and book today!</p>
-            </div>
-            <div class="offers-grid">
-                <!-- Package 1: Single Shoot -->
-                <div class="offer-card featured">
-                    <div class="offer-badge">Hot Deal</div>
-                    <div class="offer-header">
-                        <h3>Single Shoot Package</h3>
-                        <div class="offer-price">
-                            <span class="old-price">Rs. 5,000/=</span>
-                            <span class="new-price">Rs. 3,000/=</span>
-                        </div>
+            <div class="portfolio-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="portfolio-card" style="box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-radius: 20px;">
+                    <div style="height: 500px; overflow: hidden; border-radius: 20px;">
+                        <img src="Add/1.jpg" alt="Showcase 1"
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;"
+                            onmouseover="this.style.transform='scale(1.08)'"
+                            onmouseout="this.style.transform='scale(1)'">
                     </div>
-                    <div class="offer-content">
-                        <ul class="offer-features">
-                            <li><i class="fas fa-check"></i> 1 Hour Photo Session (Outdoor or Campus Location)</li>
-                            <li><i class="fas fa-check"></i> 15–20 Edited Photos</li>
-                            <li><i class="fas fa-check"></i> All RAW Photos</li>
-                            <li data-feature="video"><i class="fas fa-video"></i> 🎬 Special Short Video (1–2 min) — cinematic highlight</li>
-                            <li><i class="fas fa-truck"></i> Delivery: 10 Edited Photos within 24 Hours</li>
-                            <li><i class="fas fa-clock"></i> Remaining Photos & Video within 3–5 Days</li>
-                        </ul>
-                        <div class="offer-savings">You Save Rs. 2,000/=</div>
-                    </div>
-                    <button class="offer-btn" onclick="openBookingModal('Single Shoot Package', 'Rs. 3,000/=')">Book Now</button>
                 </div>
-
-                <!-- Package 2: Couple Shoot -->
-                <div class="offer-card">
-                    <div class="offer-badge">Best Value</div>
-                    <div class="offer-header">
-                        <h3>Couple Shoot Package</h3>
-                        <div class="offer-price">
-                            <span class="old-price">Rs. 8,000/=</span>
-                            <span class="new-price">Rs. 5,000/=</span>
-                        </div>
+                <div class="portfolio-card" style="box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-radius: 20px;">
+                    <div style="height: 500px; overflow: hidden; border-radius: 20px;">
+                        <img src="Add/2.jpg" alt="Showcase 2"
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;"
+                            onmouseover="this.style.transform='scale(1.08)'"
+                            onmouseout="this.style.transform='scale(1)'">
                     </div>
-                    <div class="offer-content">
-                        <ul class="offer-features">
-                            <li><i class="fas fa-check"></i> 1 Hour Photo Session (Outdoor or Campus Location)</li>
-                            <li><i class="fas fa-check"></i> 20–30 Edited Photos</li>
-                            <li><i class="fas fa-check"></i> All RAW Photos</li>
-                            <li data-feature="video"><i class="fas fa-video"></i> 🎬 Special Short Video (1–2 min) — capture your love</li>
-                            <li><i class="fas fa-truck"></i> Delivery: 10 Edited Photos within 24 Hours</li>
-                            <li><i class="fas fa-clock"></i> Remaining Photos & Video within 3–5 Days</li>
-                        </ul>
-                        <div class="offer-savings">You Save Rs. 3,000/=</div>
-                    </div>
-                    <button class="offer-btn" onclick="openBookingModal('Couple Shoot Package', 'Rs. 5,000/=')">Book Now</button>
                 </div>
-
-                <!-- Package 3: Group Shoot -->
-                <div class="offer-card">
-                    <div class="offer-badge">Group Deal</div>
-                    <div class="offer-header">
-                        <h3>Group Shoot Package ( 4 Members)</h3>
-                        <div class="offer-price">
-                            <span class="old-price">Rs. 15,000/=</span>
-                            <span class="new-price">Rs. 10,000/=</span>
-                        </div>
-                    </div>
-                    <div class="offer-content">
-                        <ul class="offer-features">
-                            <li><i class="fas fa-check"></i> 1 Hour Photo Session (Outdoor or Campus Location)</li>
-                            <li><i class="fas fa-check"></i> 1 Member 15 Edited Photos</li>
-                            <li><i class="fas fa-check"></i> All RAW Photos</li>
-                            <li data-feature="video"><i class="fas fa-video"></i> 🎬 Special Short Video (1–2 min) — cinematic group highlight</li>
-                            <li><i class="fas fa-truck"></i> Delivery: 10 Edited Photos within 24 Hours</li>
-                            <li><i class="fas fa-clock"></i> Remaining Photos & Video within 3–5 Days</li>
-                        </ul>
-                        <div class="offer-savings">You Save Rs. 5,000/=</div>
-                    </div>
-                    <button class="offer-btn" onclick="openBookingModal('Group Shoot Package', 'Rs. 10,000/=')">Book Now</button>
-                </div>
-            </div>
-
-            <!-- Call to Action / Note -->
-            <div class="offers-cta">
-                <div class="cta-content">
-                    <h3>Note</h3>
-                    <p>All packages include professional color grading, lighting adjustments & delivery via Google Drive or Pen Drive.</p>
-                    <div class="cta-buttons">
-                        <a href="#contact" class="btn btn-primary">Get Quote</a>
-                        <a href="tel:0766096453" class="btn btn-secondary">Call Now</a>
+                <div class="portfolio-card" style="box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-radius: 20px;">
+                    <div style="height: 500px; overflow: hidden; border-radius: 20px;">
+                        <img src="Add/3.jpg" alt="Showcase 3"
+                            style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;"
+                            onmouseover="this.style.transform='scale(1.08)'"
+                            onmouseout="this.style.transform='scale(1)'">
                     </div>
                 </div>
             </div>
@@ -2085,7 +2129,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g2" data-index="1">
                     <img src="image/Gallery10.jpg" alt="Wedding Photography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2095,7 +2139,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g3" data-index="2">
                     <img src="image/Gallery2.jpg" alt="Commercial Photography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2105,7 +2149,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g4" data-index="3">
                     <img src="image/Gallery9.jpg" alt="Music Production" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2115,7 +2159,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g5" data-index="4">
                     <img src="image/Gallery7.jpg" alt="Event Photography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2125,7 +2169,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g6" data-index="5">
                     <img src="image/Gallery1.jpg" alt="Wedding Details" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2135,7 +2179,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g7" data-index="6">
                     <img src="image/Gallery8.jpg" alt="Videography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2145,7 +2189,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g8" data-index="7">
                     <img src="image/Gallery7.jpg" alt="Drone Photography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2155,7 +2199,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="gallery-item g9" data-index="8">
                     <img src="image/Gallery6.jpg" alt="Product Photography" loading="lazy" decoding="async">
                     <div class="gallery-overlay">
@@ -2165,9 +2209,9 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </div>
     </section>
 
@@ -2175,7 +2219,7 @@
 
 
 
-       <!-- Lightbox Modal - IMPROVED FOR MOBILE -->
+    <!-- Lightbox Modal - IMPROVED FOR MOBILE -->
     <div class="lightbox" id="lightbox" style="display: none;">
         <button class="lightbox-close" id="lightboxClose">&times;</button>
         <div class="lightbox-nav">
@@ -2195,27 +2239,35 @@
     <div class="video-lightbox" id="videoLightbox" style="display: none;">
         <button class="video-lightbox-close" id="videoLightboxClose">&times;</button>
         <div class="video-lightbox-content">
-            <iframe id="videoLightboxIframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="videoLightboxIframe" src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 
     <!-- Booking Modal -->
     <div id="bookingModal" class="lightbox" style="display:none; align-items:center; justify-content:center;">
-        <div class="lightbox-content" style="max-width:520px; width:95%; background:#fff; padding:20px; border-radius:12px; position:relative;">
-            <button class="lightbox-close" id="bookingClose" style="position:absolute; right:14px; top:14px; width:40px; height:40px; font-size:1.4rem;">&times;</button>
-            <h3 id="bookingServiceTitle" style="margin-top:6px; color:var(--dark); font-family:'Playfair Display', serif;">Book Package</h3>
+        <div class="lightbox-content"
+            style="max-width:520px; width:95%; background:#fff; padding:20px; border-radius:12px; position:relative;">
+            <button class="lightbox-close" id="bookingClose"
+                style="position:absolute; right:14px; top:14px; width:40px; height:40px; font-size:1.4rem;">&times;</button>
+            <h3 id="bookingServiceTitle"
+                style="margin-top:6px; color:var(--dark); font-family:'Playfair Display', serif;">Book Package</h3>
             <p id="bookingServicePrice" style="color:var(--text-light); margin-bottom:12px;"></p>
 
             <form id="bookingForm" style="display:flex; flex-direction:column; gap:12px;">
                 <input type="text" id="bookingName" class="form-control" placeholder="Your Name" required>
-                <input type="tel" id="bookingPhone" class="form-control" placeholder="Contact Number (10 digits)" required>
+                <input type="tel" id="bookingPhone" class="form-control" placeholder="Contact Number (10 digits)"
+                    required>
                 <input type="date" id="bookingDate" class="form-control" required>
                 <input type="time" id="bookingTime" class="form-control" required>
-                <textarea id="bookingNote" class="form-control" placeholder="Optional note (e.g. location, special requests)"></textarea>
+                <textarea id="bookingNote" class="form-control"
+                    placeholder="Optional note (e.g. location, special requests)"></textarea>
                 <input type="hidden" id="bookingService" value="">
                 <input type="hidden" id="bookingPrice" value="">
                 <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:8px;">
-                    <button type="button" class="btn btn-outline" id="bookingCancel" style="padding:10px 18px; border-radius:8px;">Cancel</button>
+                    <button type="button" class="btn btn-outline" id="bookingCancel"
+                        style="padding:10px 18px; border-radius:8px;">Cancel</button>
                     <button type="submit" class="btn" style="padding:10px 18px; border-radius:8px;">Book Now</button>
                 </div>
             </form>
@@ -2228,7 +2280,8 @@
         <div class="container">
             <div class="section-title">
                 <h2>Our Services</h2>
-                <p>We offer a comprehensive range of photography, videography, and music production services tailored to meet your unique needs and vision.</p>
+                <p>We offer a comprehensive range of photography, videography, and music production services tailored to
+                    meet your unique needs and vision.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -2244,7 +2297,7 @@
                         <li>Lifestyle Photography</li>
                     </ul>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-video"></i>
@@ -2258,7 +2311,7 @@
                         <li>Drone Videography</li>
                     </ul>
                 </div>
-                
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-briefcase"></i>
@@ -2272,7 +2325,7 @@
                         <li>Product Launches</li>
                     </ul>
                 </div>
-                
+
                 <!-- New Music Production Service Card -->
                 <div class="service-card">
                     <div class="service-icon">
@@ -2292,12 +2345,12 @@
     </section>
 
 
- <!-- Coll Image Section -->
-<section id="collimage-section">
-    <div class="collimage">
-        <img src="image/banner000.jpg" alt="Cover Image">
-    </div>
-</section>
+    <!-- Coll Image Section -->
+    <section id="collimage-section">
+        <div class="collimage">
+            <img src="image/banner000.jpg" alt="Cover Image">
+        </div>
+    </section>
 
 
     <!-- Portfolio Section - UPDATED -->
@@ -2326,10 +2379,12 @@
                     <div class="portfolio-info">
                         <h3>Tyni Amaya</h3>
                         <p>Creative portrait photography session</p>
-                        <button class="btn view-shoot-btn" data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View Shoot</button>
+                        <button class="btn view-shoot-btn"
+                            data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View
+                            Shoot</button>
                     </div>
                 </div>
-                
+
                 <!-- Videography Item -->
                 <!-- <div class="portfolio-card" data-category="videography">
                     <div class="portfolio-media">
@@ -2340,7 +2395,7 @@
                         <p>Documenting the cultural festival</p>
                     </div>
                 </div> -->
-                
+
                 <!-- Commercial Item -->
                 <!-- <div class="portfolio-card" data-category="commercial">
                     <div class="portfolio-media">
@@ -2351,18 +2406,17 @@
                         <p>Commercial video for retail store</p>
                     </div>
                 </div> -->
-                
+
                 <!-- Events Item -->
                 <div class="portfolio-card" data-category="events">
                     <div class="portfolio-media">
-                        <img src="https://res.cloudinary.com/draaubv7a/image/upload/v1759719506/0_mlmykr.png" 
-                             alt="Tango Chill Music Band" loading="lazy" decoding="async">
+                        <img src="https://res.cloudinary.com/draaubv7a/image/upload/v1759719506/0_mlmykr.png"
+                            alt="Tango Chill Music Band" loading="lazy" decoding="async">
                     </div>
                     <div class="portfolio-info">
                         <h3>Tango Chill Music Band</h3>
                         <p>Music band photography and event coverage</p>
-                        <button class="btn view-shoot-btn" 
-                            data-images='[
+                        <button class="btn view-shoot-btn" data-images='[
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759719484/1_yf4oia.jpg",
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759719480/2_wtsbjk.jpg",
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759719420/3_zs4qsn.jpg",
@@ -2378,19 +2432,18 @@
                         </button>
                     </div>
                 </div>
-                
-                
+
+
                 <!-- Events Item - Dikwella Apsara -->
                 <div class="portfolio-card" data-category="events">
                     <div class="portfolio-media">
-                        <img src="https://res.cloudinary.com/draaubv7a/image/upload/v1759720644/1_hkd9kj.jpg" 
-                             alt="Dikwella Apsara Music Band" loading="lazy" decoding="async">
+                        <img src="https://res.cloudinary.com/draaubv7a/image/upload/v1759720644/1_hkd9kj.jpg"
+                            alt="Dikwella Apsara Music Band" loading="lazy" decoding="async">
                     </div>
                     <div class="portfolio-info">
                         <h3>Dikwella Apsara Music Band</h3>
                         <p>Music band photography and event coverage</p>
-                        <button class="btn view-shoot-btn" 
-                            data-images='[
+                        <button class="btn view-shoot-btn" data-images='[
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759720644/1_hkd9kj.jpg",
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759720664/2_y26iue.jpg",
                                 "https://res.cloudinary.com/draaubv7a/image/upload/v1759720643/3_ssvbvw.jpg",
@@ -2406,8 +2459,8 @@
                         </button>
                     </div>
                 </div>
-                
-                
+
+
                 <!-- Landscape Item -->
                 <!-- <div class="portfolio-card" data-category="landscape">
                     <div class="portfolio-media">
@@ -2419,7 +2472,7 @@
                         <button class="btn view-shoot-btn" data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View Shoot</button>
                     </div>
                 </div> -->
-                
+
                 <!-- Music Item -->
                 <!-- <div class="portfolio-card" data-category="music">
                     <div class="portfolio-media">
@@ -2430,7 +2483,7 @@
                         <p>Music video production</p>
                     </div>
                 </div> -->
-                
+
                 <!-- Product Photography Item -->
                 <!-- <div class="portfolio-card" data-category="product-photography">
                     <div class="portfolio-media">
@@ -2442,7 +2495,7 @@
                         <button class="btn view-shoot-btn" data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View Shoot</button>
                     </div>
                 </div> -->
-                
+
                 <!-- Hidden portfolio cards -->
                 <!-- <div class="portfolio-card hidden" data-category="photography">
                     <div class="portfolio-media">
@@ -2454,7 +2507,7 @@
                         <button class="btn view-shoot-btn" data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View Shoot</button>
                     </div>
                 </div> -->
-                
+
                 <!-- <div class="portfolio-card hidden" data-category="videography">
                     <div class="portfolio-media">
                         <iframe src="https://www.youtube.com/embed/qsRqY1uOD3o?rel=0&modestbranding=1" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -2464,7 +2517,7 @@
                         <p>Short documentary film production</p>
                     </div>
                 </div> -->
-                
+
                 <!-- <div class="portfolio-card hidden" data-category="commercial">
                     <div class="portfolio-media">
                         <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=600&q=80" alt="Commercial Photography">
@@ -2475,7 +2528,7 @@
                         <button class="btn view-shoot-btn" data-images='["image/12.jpg", "image/11.jpg", "image/9.jpg", "image/6.jpg", "image/5.jpg"]'>View Shoot</button>
                     </div>
                 </div> -->
-                
+
                 <!-- <div class="portfolio-card hidden" data-category="product-photography">
                     <div class="portfolio-media">
                         <img src="image/banner.jpg.jpg" alt="Product Photography">
@@ -2487,7 +2540,7 @@
                     </div>
                 </div> -->
             </div>
-            
+
             <div class="portfolio-btn-container">
                 <button id="seeMorePortfolio" class="btn">View More Portfolio</button>
             </div>
@@ -2504,27 +2557,29 @@
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-image">
-                       <img src="Team/OMETH.jpg" alt="Ometh Withmal" loading="lazy" decoding="async">
+                        <img src="Team/OMETH.jpg" alt="Ometh Withmal" loading="lazy" decoding="async">
 
                     </div>
                     <div class="member-info">
                         <h3>Ometh Withmal</h3>
                         <span class="position">Photographer / Retoucher</span>
-                        <p>Ometh brings stories to life through stunning photography and meticulous retouching, with a keen eye for detail and a passion for visual storytelling.</p>
+                        <p>Ometh brings stories to life through stunning photography and meticulous retouching, with a
+                            keen eye for detail and a passion for visual storytelling.</p>
                     </div>
                 </div>
-                
+
                 <div class="team-member">
                     <div class="member-image">
-                         <img src="Team/SADEESHA.jpg" alt="Sadeesha Nimsara" loading="lazy" decoding="async">
+                        <img src="Team/SADEESHA.jpg" alt="Sadeesha Nimsara" loading="lazy" decoding="async">
                     </div>
                     <div class="member-info">
                         <h3>Sadeesha Nimsara</h3>
                         <span class="position">Videographer / Editor</span>
-                        <p>Sadeesha crafts cinematic videos with seamless editing, transforming concepts into engaging visual narratives for brands worldwide.</p>
+                        <p>Sadeesha crafts cinematic videos with seamless editing, transforming concepts into engaging
+                            visual narratives for brands worldwide.</p>
                     </div>
                 </div>
-                
+
                 <div class="team-member">
                     <div class="member-image">
                         <img src="Team/SAHAN.jpg" alt="Sahan Nandika" loading="lazy" decoding="async">
@@ -2532,18 +2587,20 @@
                     <div class="member-info">
                         <h3>Sahan Nandika</h3>
                         <span class="position">Drone Operator / Photographer</span>
-                        <p>Sahan captures breathtaking aerial footage and dynamic photography, adding a unique perspective to every creative project.</p>
+                        <p>Sahan captures breathtaking aerial footage and dynamic photography, adding a unique
+                            perspective to every creative project.</p>
                     </div>
                 </div>
-                
+
                 <div class="team-member">
                     <div class="member-image">
-                         <img src="Team/VIKUM.jpg" alt="Vikum Prabash" loading="lazy" decoding="async">
+                        <img src="Team/VIKUM.jpg" alt="Vikum Prabash" loading="lazy" decoding="async">
                     </div>
                     <div class="member-info">
                         <h3>Vikum Prabash</h3>
                         <span class="position">Audio Maker</span>
-                        <p>Vikum creates immersive soundscapes, enhancing videos with high-quality audio that elevates the viewer's experience.</p>
+                        <p>Vikum creates immersive soundscapes, enhancing videos with high-quality audio that elevates
+                            the viewer's experience.</p>
                     </div>
                 </div>
             </div>
@@ -2638,7 +2695,9 @@
                 <div class="testimonial-slider">
                     <div class="testimonial">
                         <div class="testimonial-text">
-                            VIEWRO captured our wedding day perfectly! The photos are stunning and truly reflect the emotions of the day. Their team was professional, creative, and made us feel so comfortable throughout the entire process.
+                            VIEWRO captured our wedding day perfectly! The photos are stunning and truly reflect the
+                            emotions of the day. Their team was professional, creative, and made us feel so comfortable
+                            throughout the entire process.
                         </div>
                         <div class="client-info">
                             <div class="client-details">
@@ -2647,10 +2706,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="testimonial">
                         <div class="testimonial-text">
-                            The commercial video VIEWRO produced for our brand exceeded all expectations. Their attention to detail and creative approach helped us connect with our audience in a meaningful way. We've seen a significant increase in engagement since the campaign launched.
+                            The commercial video VIEWRO produced for our brand exceeded all expectations. Their
+                            attention to detail and creative approach helped us connect with our audience in a
+                            meaningful way. We've seen a significant increase in engagement since the campaign launched.
                         </div>
                         <div class="client-info">
                             <div class="client-details">
@@ -2659,10 +2720,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="testimonial">
                         <div class="testimonial-text">
-                            As a musician, finding the right team to produce my music video was crucial. VIEWRO understood my vision completely and brought it to life in ways I couldn't have imagined. The final product was even better than I hoped for.
+                            As a musician, finding the right team to produce my music video was crucial. VIEWRO
+                            understood my vision completely and brought it to life in ways I couldn't have imagined. The
+                            final product was even better than I hoped for.
                         </div>
                         <div class="client-info">
                             <div class="client-details">
@@ -2671,10 +2734,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="testimonial">
                         <div class="testimonial-text">
-                            We've worked with VIEWRO on multiple corporate events, and they consistently deliver exceptional results. Their team is professional, punctual, and the quality of their work is outstanding. They've become our go-to for all our visual content needs.
+                            We've worked with VIEWRO on multiple corporate events, and they consistently deliver
+                            exceptional results. Their team is professional, punctual, and the quality of their work is
+                            outstanding. They've become our go-to for all our visual content needs.
                         </div>
                         <div class="client-info">
                             <div class="client-details">
@@ -2683,10 +2748,12 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="testimonial">
                         <div class="testimonial-text">
-                            The product photography VIEWRO created for our e-commerce store has significantly boosted our conversion rates. Their ability to showcase products in the best light while maintaining authenticity is remarkable. Highly recommended!
+                            The product photography VIEWRO created for our e-commerce store has significantly boosted
+                            our conversion rates. Their ability to showcase products in the best light while maintaining
+                            authenticity is remarkable. Highly recommended!
                         </div>
                         <div class="client-info">
                             <div class="client-details">
@@ -2696,12 +2763,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="testimonial-nav-arrows">
                     <button class="testimonial-prev" id="testimonialPrev"><i class="fas fa-chevron-left"></i></button>
                     <button class="testimonial-next" id="testimonialNext"><i class="fas fa-chevron-right"></i></button>
                 </div>
-                
+
                 <div class="testimonial-nav">
                     <span class="testimonial-dot active" data-index="0"></span>
                     <span class="testimonial-dot" data-index="1"></span>
@@ -2718,7 +2785,8 @@
         <div class="container">
             <div class="section-title">
                 <h2>Book Your Date</h2>
-                <p>Ready to bring your creative vision to life? Book your session today to discuss your photography, videography, or music production needs.</p>
+                <p>Ready to bring your creative vision to life? Book your session today to discuss your photography,
+                    videography, or music production needs.</p>
             </div>
             <div class="contact-content">
                 <div class="contact-form">
@@ -2749,7 +2817,7 @@
                         <button type="submit" class="btn">Book Now</button>
                     </form>
                 </div>
-                
+
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -2760,7 +2828,7 @@
                             <p>Matara, Sri Lanka</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-phone"></i>
@@ -2770,7 +2838,7 @@
                             <p>0766096453</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
@@ -2780,7 +2848,7 @@
                             <p>helloviewro@gmail.com</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-clock"></i>
@@ -2801,17 +2869,22 @@
             <div class="footer-content">
                 <div class="footer-about">
                     <a href="#hero" class="logo">VI<span>EWRO</span></a>
-                    <p>Capturing moments with creativity and precision. Professional photography, videography, and music production services for all occasions.</p>
+                    <p>Capturing moments with creativity and precision. Professional photography, videography, and music
+                        production services for all occasions.</p>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/share/1JTgTEQbUN/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/viewroplus?igsh=cXlmeWowM3U2eHZr" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1JTgTEQbUN/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/viewroplus?igsh=cXlmeWowM3U2eHZr" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
                         <a href="https://www.youtube.com/@viewroplus" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.tiktok.com/@viewroplus?_t=ZS-90MVJU8vKQp&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=helloviewro@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.tiktok.com/@viewroplus?_t=ZS-90MVJU8vKQp&_r=1" target="_blank"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=helloviewro@gmail.com" target="_blank"><i
+                                class="fas fa-envelope"></i></a>
                         <a href="https://wa.me/94766096453" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
-                
+
                 <div class="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
@@ -2826,7 +2899,7 @@
                         <li><a href="#contact">Book Date</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h3>Services</h3>
                     <ul>
@@ -2839,7 +2912,7 @@
                         <li><a href="#">Sound Design</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h3>Contact Info</h3>
                     <ul>
@@ -2849,7 +2922,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
                 <p>&copy; 2023 VIEWRO. All Rights Reserved.</p>
             </div>
@@ -2868,13 +2941,13 @@
         // Mobile Navigation Toggle
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
-        
+
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            hamburger.innerHTML = navLinks.classList.contains('active') ? 
+            hamburger.innerHTML = navLinks.classList.contains('active') ?
                 '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
         });
-        
+
         // Close mobile menu when clicking on a link
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
@@ -2882,26 +2955,26 @@
                 hamburger.innerHTML = '<i class="fas fa-bars"></i>';
             });
         });
-        
+
         // Header scroll effect
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
             header.classList.toggle('scrolled', window.scrollY > 50);
         });
-        
+
         // Portfolio Filter
         const filterButtons = document.querySelectorAll('.filter-btn');
         const portfolioCards = document.querySelectorAll('.portfolio-card');
-        
+
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 // Remove active class from all buttons
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 // Add active class to clicked button
                 button.classList.add('active');
-                
+
                 const filterValue = button.getAttribute('data-filter');
-                
+
                 portfolioCards.forEach(card => {
                     const cardCategory = card.getAttribute('data-category');
                     if (filterValue === 'all') {
@@ -2919,12 +2992,12 @@
                 });
             });
         });
-        
+
         // Portfolio See More functionality
         const seeMorePortfolioBtn = document.getElementById('seeMorePortfolio');
         const hiddenPortfolioCards = document.querySelectorAll('.portfolio-card.hidden');
         let portfolioVisible = false;
-        
+
         seeMorePortfolioBtn.addEventListener('click', () => {
             if (!portfolioVisible) {
                 hiddenPortfolioCards.forEach(card => {
@@ -2940,7 +3013,7 @@
                 portfolioVisible = false;
             }
         });
-        
+
         // Vlogs See More functionality
         /*
         const seeMoreVlogsBtn = document.getElementById('seeMoreVlogs');
@@ -2963,11 +3036,11 @@
             }
         });
         */
-        
+
         // WhatsApp form submission with validation
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
-            
+
             // Get form data
             const formData = new FormData(this);
             const name = this.querySelector('input[type="text"]').value.trim();
@@ -2975,40 +3048,40 @@
             const phone = this.querySelector('input[type="tel"]').value.trim();
             const service = this.querySelector('select').value;
             const message = this.querySelector('textarea').value.trim();
-            
+
             // Validation
             if (!name) {
                 alert('Please enter your name.');
                 return;
             }
-            
+
             if (!email) {
                 alert('Please enter your email address.');
                 return;
             }
-            
+
             if (!phone) {
                 alert('Please enter your phone number.');
                 return;
             }
-            
+
             // Phone number validation - should be 10 digits
             const phoneDigits = phone.replace(/\D/g, ''); // Remove non-digits
             if (phoneDigits.length !== 10) {
                 alert('Please enter a valid 10-digit phone number.');
                 return;
             }
-            
+
             if (!service) {
                 alert('Please select a service you are interested in.');
                 return;
             }
-            
+
             if (!message) {
                 alert('Please enter your message.');
                 return;
             }
-            
+
             // Create WhatsApp message
             const whatsappMessage = `Hello! I would like to book a session with VIEWRO.
 
@@ -3019,35 +3092,35 @@ Service: ${service}
 Message: ${message}
 
 Thank you!`;
-            
+
             // Encode message for URL
             const encodedMessage = encodeURIComponent(whatsappMessage);
-            
+
             // WhatsApp number (Sri Lankan format)
             const whatsappNumber = '94766096453'; // 0766096453 in international format
-            
+
             // Create WhatsApp URL
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-            
+
             // Open WhatsApp
             window.open(whatsappUrl, '_blank');
-            
+
             // Show success message
             alert('Thank you! WhatsApp will open with your message. Please send it to complete your booking request.');
-            
+
             // Reset form
             this.reset();
         });
 
         // Animation on scroll
-        const animateOnScroll = function() {
+        const animateOnScroll = function () {
             const elements = document.querySelectorAll('.service-card, .portfolio-card, .stat-item, .team-member, .vlog-card, .gallery-item');
-            
+
             elements.forEach(element => {
                 const elementPosition = element.getBoundingClientRect().top;
                 const screenPosition = window.innerHeight / 1.2;
-                
-                if(elementPosition < screenPosition) {
+
+                if (elementPosition < screenPosition) {
                     element.style.opacity = '1';
                     element.style.transform = 'translateY(0)';
                 }
@@ -3062,7 +3135,7 @@ Thank you!`;
                 element.style.transform = 'translateY(30px)';
                 element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
             });
-            
+
             window.addEventListener('scroll', animateOnScroll);
             // Trigger once on load in case elements are already in view
             animateOnScroll();
@@ -3070,18 +3143,18 @@ Thank you!`;
 
         // Gallery Lightbox Functionality - IMPROVED FOR MOBILE
         const lightbox = document.getElementById('lightbox');
-    const lightboxImage = document.getElementById('lightboxImage');
-    const lightboxTitle = document.getElementById('lightboxTitle');
-    const lightboxDescription = document.getElementById('lightboxDescription');
-    const lightboxClose = document.getElementById('lightboxClose');
-    const lightboxPrev = document.getElementById('lightboxPrev');
-    const lightboxNext = document.getElementById('lightboxNext');
-    const galleryItems = document.querySelectorAll('.gallery-item');
-    
-    let currentIndex = 0;
-    let touchStartX = 0;
-    let touchEndX = 0;
-    
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxTitle = document.getElementById('lightboxTitle');
+        const lightboxDescription = document.getElementById('lightboxDescription');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        let currentIndex = 0;
+        let touchStartX = 0;
+        let touchEndX = 0;
+
         // Build gallery data from actual gallery items
         const galleryData = Array.from(galleryItems).map(item => {
             const img = item.querySelector('img');
@@ -3092,107 +3165,107 @@ Thank you!`;
                 description: '© 2025 All Rights Reserved'
             };
         });
-    
-    // Open lightbox with specific image
-    function openLightbox(index) {
+
+        // Open lightbox with specific image
+        function openLightbox(index) {
             if (index < 0 || index >= galleryData.length) return;
-        currentIndex = index;
-        lightboxImage.src = galleryData[index].src;
-        lightboxTitle.textContent = galleryData[index].title;
-        lightboxDescription.textContent = galleryData[index].description;
-        lightbox.style.display = 'flex';
-        setTimeout(() => {
-            lightbox.classList.add('active');
-        }, 10);
-        document.body.style.overflow = 'hidden'; // Prevent scrolling
-    }
-    
-    // Close lightbox
-    function closeLightbox() {
-        lightbox.classList.remove('active');
-        setTimeout(() => {
-            lightbox.style.display = 'none';
-        }, 300);
-        document.body.style.overflow = 'auto'; // Re-enable scrolling
-    }
-    
-    // Navigate to previous image
-    function prevImage() {
-        currentIndex = (currentIndex - 1 + galleryData.length) % galleryData.length;
-        openLightbox(currentIndex);
-    }
-    
-    // Navigate to next image
-    function nextImage() {
-        currentIndex = (currentIndex + 1) % galleryData.length;
-        openLightbox(currentIndex);
-    }
-    
-    // Add event listeners to gallery items
-    galleryItems.forEach((item, index) => {
-        item.addEventListener('click', () => {
+            currentIndex = index;
+            lightboxImage.src = galleryData[index].src;
+            lightboxTitle.textContent = galleryData[index].title;
+            lightboxDescription.textContent = galleryData[index].description;
+            lightbox.style.display = 'flex';
+            setTimeout(() => {
+                lightbox.classList.add('active');
+            }, 10);
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        }
+
+        // Close lightbox
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            setTimeout(() => {
+                lightbox.style.display = 'none';
+            }, 300);
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+
+        // Navigate to previous image
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + galleryData.length) % galleryData.length;
+            openLightbox(currentIndex);
+        }
+
+        // Navigate to next image
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % galleryData.length;
+            openLightbox(currentIndex);
+        }
+
+        // Add event listeners to gallery items
+        galleryItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
                 // Use the actual index from data-index attribute if available, otherwise use array index
                 const itemIndex = item.getAttribute('data-index') ? parseInt(item.getAttribute('data-index')) : index;
                 openLightbox(itemIndex);
+            });
         });
-    });
-    
-    // Add event listeners to lightbox controls
-    lightboxClose.addEventListener('click', closeLightbox);
-    lightboxPrev.addEventListener('click', prevImage);
-    lightboxNext.addEventListener('click', nextImage);
-    
-    // Close lightbox when clicking outside the image
-    lightbox.addEventListener('click', (e) => {
-        if (e.target === lightbox) {
-            closeLightbox();
-        }
-    });
-    
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-        if (lightbox.classList.contains('active')) {
-            if (e.key === 'Escape') {
+
+        // Add event listeners to lightbox controls
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxPrev.addEventListener('click', prevImage);
+        lightboxNext.addEventListener('click', nextImage);
+
+        // Close lightbox when clicking outside the image
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
                 closeLightbox();
-            } else if (e.key === 'ArrowLeft') {
-                prevImage();
-            } else if (e.key === 'ArrowRight') {
-                nextImage();
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (lightbox.classList.contains('active')) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                } else if (e.key === 'ArrowLeft') {
+                    prevImage();
+                } else if (e.key === 'ArrowRight') {
+                    nextImage();
+                }
+            }
+        });
+
+        // Touch swipe functionality for mobile
+        lightbox.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        lightbox.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const swipeThreshold = 50; // Minimum distance for a swipe
+            const swipeDistance = touchEndX - touchStartX;
+
+            if (Math.abs(swipeDistance) > swipeThreshold) {
+                if (swipeDistance > 0) {
+                    // Swipe right - previous image
+                    prevImage();
+                } else {
+                    // Swipe left - next image
+                    nextImage();
+                }
             }
         }
-    });
-    
-    // Touch swipe functionality for mobile
-    lightbox.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
-    });
-    
-    lightbox.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    });
-    
-    function handleSwipe() {
-        const swipeThreshold = 50; // Minimum distance for a swipe
-        const swipeDistance = touchEndX - touchStartX;
-        
-        if (Math.abs(swipeDistance) > swipeThreshold) {
-            if (swipeDistance > 0) {
-                // Swipe right - previous image
-                prevImage();
-            } else {
-                // Swipe left - next image
-                nextImage();
-            }
-        }
-    }
 
         // Portfolio View Shoot Functionality
         const viewShootButtons = document.querySelectorAll('.view-shoot-btn');
         const videoLightbox = document.getElementById('videoLightbox');
         const videoLightboxIframe = document.getElementById('videoLightboxIframe');
         const videoLightboxClose = document.getElementById('videoLightboxClose');
-        
+
         // Portfolio image lightbox
         viewShootButtons.forEach(button => {
             button.addEventListener('click', (e) => {
@@ -3201,7 +3274,7 @@ Thank you!`;
                 openPortfolioLightbox(images);
             });
         });
-        
+
         // Portfolio video lightbox
         document.querySelectorAll('.portfolio-card iframe').forEach(iframe => {
             iframe.addEventListener('click', (e) => {
@@ -3210,7 +3283,7 @@ Thank you!`;
                 openVideoLightbox(videoSrc);
             });
         });
-        
+
         function openPortfolioLightbox(images) {
             // Create a new lightbox for portfolio images
             const portfolioLightbox = document.createElement('div');
@@ -3229,37 +3302,37 @@ Thank you!`;
                     </div>
                 </div>
             `;
-            
+
             document.body.appendChild(portfolioLightbox);
             document.body.style.overflow = 'hidden';
-            
+
             let currentImageIndex = 0;
             const portfolioImage = portfolioLightbox.querySelector('img');
             const portfolioCaption = portfolioLightbox.querySelector('.lightbox-caption p');
             const portfolioClose = portfolioLightbox.querySelector('.lightbox-close');
             const portfolioPrev = portfolioLightbox.querySelector('.lightbox-prev');
             const portfolioNext = portfolioLightbox.querySelector('.lightbox-next');
-            
+
             function updatePortfolioImage() {
                 portfolioImage.src = images[currentImageIndex];
                 portfolioCaption.textContent = `Image ${currentImageIndex + 1} of ${images.length}`;
             }
-            
+
             portfolioClose.addEventListener('click', () => {
                 document.body.removeChild(portfolioLightbox);
                 document.body.style.overflow = 'auto';
             });
-            
+
             portfolioPrev.addEventListener('click', () => {
                 currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
                 updatePortfolioImage();
             });
-            
+
             portfolioNext.addEventListener('click', () => {
                 currentImageIndex = (currentImageIndex + 1) % images.length;
                 updatePortfolioImage();
             });
-            
+
             // Close when clicking outside the image
             portfolioLightbox.addEventListener('click', (e) => {
                 if (e.target === portfolioLightbox) {
@@ -3267,7 +3340,7 @@ Thank you!`;
                     document.body.style.overflow = 'auto';
                 }
             });
-            
+
             // Keyboard navigation
             document.addEventListener('keydown', function handleKeydown(e) {
                 if (portfolioLightbox.classList.contains('active')) {
@@ -3285,27 +3358,27 @@ Thank you!`;
                 }
             });
         }
-        
+
         function openVideoLightbox(videoSrc) {
             videoLightboxIframe.src = videoSrc;
             videoLightbox.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
-        
+
         function closeVideoLightbox() {
             videoLightbox.classList.remove('active');
             videoLightboxIframe.src = '';
             document.body.style.overflow = 'auto';
         }
-        
+
         videoLightboxClose.addEventListener('click', closeVideoLightbox);
-        
+
         videoLightbox.addEventListener('click', (e) => {
             if (e.target === videoLightbox) {
                 closeVideoLightbox();
             }
         });
-        
+
         // Close video lightbox with Escape key
         document.addEventListener('keydown', (e) => {
             if (videoLightbox.classList.contains('active') && e.key === 'Escape') {
@@ -3319,73 +3392,73 @@ Thank you!`;
         const testimonialNext = document.getElementById('testimonialNext');
         const testimonialDots = document.querySelectorAll('.testimonial-dot');
         const testimonials = document.querySelectorAll('.testimonial');
-        
+
         let currentTestimonial = 0;
         const totalTestimonials = testimonials.length;
-        
+
         function updateTestimonialSlider() {
             const slideWidth = testimonials[0].offsetWidth + 30; // 30px for margin
             testimonialSlider.style.transform = `translateX(-${currentTestimonial * slideWidth}px)`;
-            
+
             // Update dots
             testimonialDots.forEach((dot, index) => {
                 dot.classList.toggle('active', index === currentTestimonial);
             });
         }
-        
+
         testimonialPrev.addEventListener('click', () => {
             currentTestimonial = (currentTestimonial - 1 + totalTestimonials) % totalTestimonials;
             updateTestimonialSlider();
         });
-        
+
         testimonialNext.addEventListener('click', () => {
             currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
             updateTestimonialSlider();
         });
-        
+
         testimonialDots.forEach(dot => {
             dot.addEventListener('click', () => {
                 currentTestimonial = parseInt(dot.getAttribute('data-index'));
                 updateTestimonialSlider();
             });
         });
-        
+
         // Auto slide testimonials
         let testimonialInterval = setInterval(() => {
             currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
             updateTestimonialSlider();
         }, 5000);
-        
+
         // Pause auto slide on hover
         const testimonialsSection = document.getElementById('testimonials');
         testimonialsSection.addEventListener('mouseenter', () => {
             clearInterval(testimonialInterval);
         });
-        
+
         testimonialsSection.addEventListener('mouseleave', () => {
             testimonialInterval = setInterval(() => {
                 currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
                 updateTestimonialSlider();
             }, 5000);
         });
-        
+
         // Touch swipe for testimonials on mobile
         let touchStartXTestimonial = 0;
         let touchEndXTestimonial = 0;
-        
+
         testimonialSlider.addEventListener('touchstart', (e) => {
             touchStartXTestimonial = e.changedTouches[0].screenX;
         });
-        
+
         testimonialSlider.addEventListener('touchend', (e) => {
             touchEndXTestimonial = e.changedTouches[0].screenX;
             handleTestimonialSwipe();
         });
-        
+
         function handleTestimonialSwipe() {
             const swipeThreshold = 50;
             const swipeDistance = touchEndXTestimonial - touchStartXTestimonial;
-            
+
             if (Math.abs(swipeDistance) > swipeThreshold) {
                 if (swipeDistance > 0) {
                     // Swipe right - previous testimonial
@@ -3414,13 +3487,13 @@ Thank you!`;
             bookingServiceField.value = service;
             bookingPriceField.value = price;
             bookingModal.style.display = 'flex';
-            setTimeout(()=> bookingModal.classList.add('active'), 10);
+            setTimeout(() => bookingModal.classList.add('active'), 10);
             document.body.style.overflow = 'hidden';
         }
 
         function closeBookingModal() {
             bookingModal.classList.remove('active');
-            setTimeout(()=> bookingModal.style.display = 'none', 240);
+            setTimeout(() => bookingModal.style.display = 'none', 240);
             document.body.style.overflow = 'auto';
             bookingFormEl.reset();
         }
@@ -3429,7 +3502,7 @@ Thank you!`;
         bookingCancel.addEventListener('click', closeBookingModal);
         bookingModal.addEventListener('click', (e) => { if (e.target === bookingModal) closeBookingModal(); });
 
-        bookingFormEl.addEventListener('submit', function(e) {
+        bookingFormEl.addEventListener('submit', function (e) {
             e.preventDefault();
             const name = document.getElementById('bookingName').value.trim();
             const phone = document.getElementById('bookingPhone').value.trim();
@@ -3463,4 +3536,5 @@ Thank you!`;
         });
     </script>
 </body>
+
 </html>
